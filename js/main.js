@@ -13,7 +13,7 @@
   $(window).on("load", function () {
     if ($("#preloader").length) {
       $("#preloader")
-        .delay(100)
+        .delay(300)
         .fadeOut("slow", function () {
           $(this).remove();
         });
@@ -107,10 +107,10 @@
     var typed_strings = $(".text-slider-items").text();
     var typed = new Typed(".text-slider", {
       strings: typed_strings.split(","),
-      typeSpeed: 80,
+      typeSpeed: 100,
       loop: true,
-      backDelay: 1100,
-      backSpeed: 30,
+      backDelay: 1500,
+      backSpeed: 40,
     });
   }
 

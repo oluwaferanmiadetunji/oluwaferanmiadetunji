@@ -4,7 +4,7 @@
 <br>
 - I'm currently learning Solidity and Golang
 <br>
-- Reach out at [oluwaferanmiadetunji@gmail.com](oluwaferanmiadetunji@gmail.com)
+- Reach out at [oluwaferanmiadetunji@gmail.com](mailto:oluwaferanmiadetunji@gmail.com)
 <br>
 
 

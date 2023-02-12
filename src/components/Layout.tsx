@@ -1,11 +1,17 @@
 import { ReactNode } from 'react'
 import Box from '@mui/material/Box'
+import Stack from '@mui/material/Stack'
 import Head from 'next/head'
 import Container from '@mui/material/Container'
 import AppBar from '@mui/material/AppBar'
 import Toolbar from '@mui/material/Toolbar'
 import Typography from '@mui/material/Typography'
 import Link from 'next/link'
+import Button from '@mui/material/Button'
+import GitHubIcon from '@mui/icons-material/GitHub'
+import EmailIcon from '@mui/icons-material/Email'
+import LinkedInIcon from '@mui/icons-material/LinkedIn'
+import { links } from 'components/constants'
 
 interface LayoutTypes {
   children: ReactNode
@@ -18,9 +24,7 @@ const Layout = ({ children }: LayoutTypes) => {
       maxWidth={false}
       sx={{
         width: '100vw',
-        height: '100vh',
-        overflow: 'hidden',
-        background: 'rgb(11, 15, 25)',
+        height: '100%',
       }}
     >
       <Head>
@@ -43,10 +47,7 @@ const Layout = ({ children }: LayoutTypes) => {
           property="og:title"
           content="Adetunji Oluwaferanmi is a software engineer with the aim of making a lot of money through writing quality code"
         />
-        <meta
-          property="og:url"
-          content="https://www.oluwaferanmiadetunji.me/"
-        />
+        <meta property="og:url" content={links.URL} />
         <meta property="og:site_name" content="AdetunjiOluwaferanmi" />
         <meta name="theme-color" content="#ffffff" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -61,10 +62,7 @@ const Layout = ({ children }: LayoutTypes) => {
         <meta name="twitter:site" content="@oluwaferanmi_ad" />
         <meta name="twitter:domain" content="AdetunjiOluwaferanmi" />
         <meta name="twitter:creator" content="@oluwaferanmi_ad" />
-        <meta
-          name="twitter:url"
-          content="https://www.oluwaferanmiadetunji.me/"
-        />
+        <meta name="twitter:url" content={links.URL} />
         <link rel="apple-touch-icon" sizes="180x180" href="/img.jpg" />
         <link rel="icon" type="image/jpg" sizes="32x32" href="/img.jpg" />
         <link rel="icon" type="image/jpg" sizes="16x16" href="/img.jpg" />
@@ -73,14 +71,23 @@ const Layout = ({ children }: LayoutTypes) => {
         <meta name="robots" content="all,follow"></meta>
       </Head>
 
-      <Box sx={{ flexGrow: 1 }}>
-        <AppBar position="static" elevation={0}>
-          <Toolbar
-            sx={{
-              background: 'rgb(11, 15, 25)',
-            }}
-          >
-            <Box sx={{ width: '100%', padding: '10px 15%', marginTop: '15px' }}>
+      <Box>
+        <AppBar
+          position="static"
+          elevation={0}
+          sx={{ background: 'transparent', boxShadow: 'none' }}
+        >
+          <Toolbar>
+            <Box
+              sx={{
+                width: '100%',
+                padding: '10px 50px',
+                marginTop: '15px',
+                display: 'flex',
+                justifyContent: 'space-between',
+                alignItems: 'center',
+              }}
+            >
               <Link
                 href="/"
                 style={{
@@ -93,19 +100,91 @@ const Layout = ({ children }: LayoutTypes) => {
                     flexGrow: 1,
                     fontSize: '24px',
                     fontWeight: '700',
+                    color: '#828282',
                   }}
                 >
-                  Adetunji Oluwaferanmi
+                  Adetunji <span style={{ color: 'white' }}>Oluwaferanmi</span>
                 </Typography>
               </Link>
+
+              <Stack direction="row">
+                <Button sx={styles.textLinks}>About</Button>
+                <Button sx={styles.textLinks}>Tech Stack</Button>
+                <Button sx={styles.textLinks}>Projects</Button>
+              </Stack>
+
+              <Stack direction="row">
+                <Button
+                  sx={styles.links}
+                  startIcon={<LinkedInIcon />}
+                  component={Link}
+                  href={links.LINKEDIN}
+                  target="_blank"
+                >
+                  Linkedin
+                </Button>
+                <Button
+                  sx={styles.links}
+                  startIcon={<GitHubIcon />}
+                  component={Link}
+                  href={links.GITHB}
+                  target="_blank"
+                >
+                  Githhub
+                </Button>
+                <Button
+                  sx={styles.links}
+                  startIcon={<EmailIcon />}
+                  component={Link}
+                  href={links.EMAIL}
+                  target="_blank"
+                >
+                  Contact Me
+                </Button>
+              </Stack>
             </Box>
           </Toolbar>
         </AppBar>
       </Box>
 
-      {children}
+      <Box sx={styles.children}>{children}</Box>
     </Container>
   )
+}
+
+const styles = {
+  children: {
+    marginTop: '100px',
+    paddingBottom: '100px',
+  },
+  links: {
+    textTransform: 'none',
+    color: 'white',
+    minWidth: '100px',
+    height: '40px',
+    fontSize: '16px',
+    margin: '0 5px',
+    fontWeight: '700',
+    lineHeight: '30px',
+    padding: '3px 20px',
+    border: '1px solid transparent',
+    '&:hover': {
+      color: '#70FF00',
+      border: '1px solid #70FF00',
+      background: 'black',
+    },
+  },
+  textLinks: {
+    color: 'white',
+    fontSize: '16px',
+    fontWeight: '700',
+    lineHeight: '30px',
+    textTransform: 'none',
+    '&:hover': {
+      color: '#70FF00',
+      background: 'transparent',
+    },
+  },
 }
 
 export default Layout

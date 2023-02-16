@@ -6,3 +6,9 @@
 <br>
 - Reach out at oluwaferanmiadetunji@gmail.com
 
+<br/>
+
+<a href="https://github.com/oluwaferanmiadetunji">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=oluwaferanmiadetunji&theme=buefy&show_icons=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=oluwaferanmiadetunji&theme=buefy&layout=compact" />
+</a>

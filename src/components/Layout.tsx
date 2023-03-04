@@ -127,7 +127,7 @@ const Layout = ({ children }: LayoutTypes) => {
                   sx={styles.links}
                   startIcon={<GitHubIcon />}
                   component={Link}
-                  href={links.GITHB}
+                  href={links.GITHUB}
                   target="_blank"
                 >
                   Githhub

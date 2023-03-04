@@ -19,7 +19,7 @@ export const projects = [
 
 export const links = {
   LINKEDIN: 'https://www.linkedin.com/in/feranmi-adetunji-91228a221/',
-  GITHB: 'https://github.com/oluwaferanmiadetunji/',
+  GITHUB: 'https://github.com/oluwaferanmiadetunji/',
   EMAIL: 'mailto:oluwaferanmiadetunji111@gmail.com',
   URL: 'https://www.oluwaferanmiadetunji.me',
 }

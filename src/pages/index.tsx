@@ -2,7 +2,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Layout from 'components/Layout'
 import Box from '@mui/material/Box'
-import Tooltip from '@mui/material/Tooltip'
 import Typography from '@mui/material/Typography'
 import Stack from '@mui/material/Stack'
 import Grid from '@mui/material/Grid'
@@ -134,7 +133,7 @@ export default function IndexPage() {
         sx={{
           paddingLeft: '100px',
           marginTop: '50px',
-          marginleft: '50px',
+          marginLeft: '50px',
           background: '#161616',
           width: '100%',
           padding: '40px 100px',
@@ -571,7 +570,7 @@ export default function IndexPage() {
         sx={{
           paddingLeft: '100px',
           marginTop: '50px',
-          marginleft: '50px',
+          marginLeft: '50px',
           background: '#161616',
           width: '100%',
           padding: '40px 100px',
@@ -592,18 +591,11 @@ export default function IndexPage() {
 
         <Box>
           <Slider {...settings}>
-            <Box>
-              <Typography sx={{ color: 'white' }}>1</Typography>
-            </Box>
-            <Box>
-              <Typography sx={{ color: 'white' }}>2</Typography>
-            </Box>
-            <Box>
-              <Typography sx={{ color: 'white' }}>3</Typography>
-            </Box>
-            <Box>
-              <Typography sx={{ color: 'white' }}>4</Typography>
-            </Box>
+            {projects.map((project, index) => (
+              <Box key={index}>
+                <Typography sx={{ color: 'white' }}>{project.title}</Typography>
+              </Box>
+            ))}
           </Slider>
         </Box>
       </Box>

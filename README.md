@@ -8,13 +8,13 @@
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=oluwaferanmiadetunji&theme=dracula" alt="" /></p>
 
-
+<br/>
+<br/>
 - I build stuffs with JavaScript and Typescript
-<br>
+<br/>
 - I'm currently learning Solidity and Golang
-<br>
+<b/r>
 - Reach out at oluwaferanmiadetunji@gmail.com
 
-<br/>
-<br/>
+
 

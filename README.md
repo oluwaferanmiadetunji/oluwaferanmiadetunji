@@ -2,11 +2,11 @@
 <br>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=oluwaferanmiadetunji&label=Profile%20views&color=0e75b6&style=flat" alt="" /> </p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=oluwaferanmiadetunji&show_icons=true&locale=en&layout=compact&theme=onedark" alt="" /></p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=oluwaferanmiadetunji&show_icons=true&locale=en&layout=compact&theme=dracula" alt="" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=oluwaferanmiadetunji&show_icons=true&locale=en&theme=onedark" alt="" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=oluwaferanmiadetunji&show_icons=true&locale=en&theme=dracula" alt="" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=oluwaferanmiadetunji&theme=onedark" alt="" /></p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=oluwaferanmiadetunji&theme=dracula" alt="" /></p>
 
 
 - I build stuffs with JavaScript and Typescript

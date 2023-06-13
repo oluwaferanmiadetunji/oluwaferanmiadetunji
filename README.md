@@ -13,7 +13,7 @@
 - I build stuffs with JavaScript and Typescript
 <br/>
 - I'm currently learning Solidity and Golang
-<b/r>
+<br/>
 - Reach out at oluwaferanmiadetunji@gmail.com
 
 

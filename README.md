@@ -6,10 +6,10 @@
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=oluwaferanmiadetunji&show_icons=true&locale=en&layout=compact&theme=onedark" alt="yczar" /></p>
 
+---
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=oluwaferanmiadetunji&show_icons=true&locale=en&theme=onedark" alt="yczar" /></p>
-
+---
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=oluwaferanmiadetunji&theme=onedark" alt="yczar" /></p>
-
 ---
 
 - I build stuffs with JavaScript and Typescript
@@ -21,10 +21,3 @@
 <br/>
 <br/>
 
-
-<a href="https://github.com/oluwaferanmiadetunji">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=oluwaferanmiadetunji&theme=buefy&show_icons=true" />
-  <br/>
-  <br/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=oluwaferanmiadetunji&theme=buefy&layout=compact" />
-</a>

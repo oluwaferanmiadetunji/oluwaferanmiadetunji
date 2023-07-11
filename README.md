@@ -11,8 +11,3 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=oluwaferanmiadetunji&theme=nord&langs_count=5&hide=javascript,html,css,erlang" />
 </a>
 
-<p></p>
-<a href="https://github.com/oluwaferanmiadetunji">
-  <img align="center" src="[[https://github-readme-stats.vercel.app/api/top-langs/?username=oluwaferanmiadetunji](https://github-readme-streak-stats.herokuapp.com/?user=oluwaferanmiadetunji)](https://github-readme-streak-stats.herokuapp.com/?user=oluwaferanmiadetunji)&theme=nord&langs_count=5&hide=javascript,html,css,erlang" />
-</a>
-

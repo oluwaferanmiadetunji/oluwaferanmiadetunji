@@ -1,20 +1,14 @@
-### Hi there 👋, I am Adetunji Oluwaferanmi [![wakatime](https://wakatime.com/badge/user/82fc010c-9e78-44cc-87c7-b93dbb77e763.svg)](https://wakatime.com/@82fc010c-9e78-44cc-87c7-b93dbb77e763)
-<br>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=oluwaferanmiadetunji&label=Profile%20views&color=0e75b6&style=flat" alt="" /> </p>
+### Adetunji Oluwaferanmi [![wakatime](https://wakatime.com/badge/user/82fc010c-9e78-44cc-87c7-b93dbb77e763.svg)](https://wakatime.com/@82fc010c-9e78-44cc-87c7-b93dbb77e763)
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=oluwaferanmiadetunji&show_icons=true&locale=en&layout=compact&theme=dracula" alt="" /></p>
+<a href="https://github.com/oluwaferanmiadetunji">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=oluwaferanmiadetunji&theme=nord&show_icons=true&count_private=true&hide=contribs&line_height=40" />
+</a>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=oluwaferanmiadetunji&show_icons=true&locale=en&theme=dracula" alt="" /></p>
+<a href="https://github.com/oluwaferanmiadetunji">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=oluwaferanmiadetunji&theme=nord&langs_count=5&hide=javascript,html,css,erlang" />
+</a>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=oluwaferanmiadetunji&theme=dracula" alt="" /></p>
-
-<br/>
-<br/>
-- I build stuffs with JavaScript and Typescript
-<br/>
-- I'm currently learning Solidity and Golang
-<br/>
-- Reach out at oluwaferanmiadetunji@gmail.com
-
-
+<a href="https://github.com/oluwaferanmiadetunji">
+  <img align="center" src="[https://github-readme-stats.vercel.app/api/top-langs/?username=oluwaferanmiadetunji](https://github-readme-streak-stats.herokuapp.com/?user=oluwaferanmiadetunji)&theme=nord&langs_count=5&hide=javascript,html,css,erlang" />
+</a>
 

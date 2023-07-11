@@ -1,16 +1,13 @@
-### Hi there 👋, I am Adetunji Oluwaferanmi 
-<br>
-- I build stuffs with JavaScript and Typescript
-<br>
-- I'm currently learning Solidity and Golang
-<br>
-- Reach out at oluwaferanmiadetunji@gmail.com
+## [![wakatime](https://wakatime.com/badge/user/82fc010c-9e78-44cc-87c7-b93dbb77e763.svg)](https://wakatime.com/@82fc010c-9e78-44cc-87c7-b93dbb77e763)
 
-<br><br>
+<p></p>
 
+<a href="https://github.com/oluwaferanmiadetunji">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=oluwaferanmiadetunji&theme=nord&show_icons=true&count_private=true&hide=contribs&line_height=40" />
+</a>
 
-![Adetunji Oluwaferanmi's github stats](https://github-readme-stats.vercel.app/api?username=oluwaferanmiadetunji&count_private=true&show_icons=true&theme=chartreuse-dark)
+<p></p>
+<a href="https://github.com/oluwaferanmiadetunji">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=oluwaferanmiadetunji&theme=nord&langs_count=5&hide=javascript,html,css,erlang" />
+</a>
 
-<br>
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=oluwaferanmiadetunji&langs_count=10&theme=chartreuse-dark)

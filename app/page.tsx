@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import Particles from './components/particles'
 import { links } from '../util/constants'
-import { Linkedin, Github, Mail } from 'lucide-react'
+import { Linkedin, Github, Mail, Twitter } from 'lucide-react'
 
 const navigation = [
   { name: 'Projects', href: '/projects' },
@@ -13,6 +13,12 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black relative">
       <div className="flex absolute top-5 right-5 animate-fade-in">
+        <Link href={links.TWITTER} target="_blank">
+          <button className="text-sm duration-500 hover:text-zinc-500 text-[#70FF00] mr-3">
+            <Twitter size={20} />
+          </button>
+        </Link>
+
         <Link href={links.LINKEDIN} target="_blank">
           <button className="text-sm duration-500 hover:text-zinc-500 text-[#70FF00] mr-3">
             <Linkedin size={20} />

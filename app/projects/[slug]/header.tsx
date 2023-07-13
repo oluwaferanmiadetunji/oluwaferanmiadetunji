@@ -1,5 +1,5 @@
 'use client'
-import { ArrowLeft, Github, Twitter } from 'lucide-react'
+import { ArrowLeft, Github, Twitter, Linkedin } from 'lucide-react'
 import Link from 'next/link'
 import React, { useEffect, useRef, useState } from 'react'
 import { links as myLinks } from '../../../util/constants'
@@ -46,6 +46,15 @@ export const Header: React.FC<Props> = ({ project }) => {
           <div className="flex justify-between gap-8">
             <Link target="_blank" href={myLinks.TWITTER}>
               <Twitter
+                className={`w-6 h-6 duration-200 hover:font-medium ${
+                  isIntersecting
+                    ? ' text-zinc-400 hover:text-zinc-100'
+                    : 'text-zinc-600 hover:text-zinc-900'
+                } `}
+              />
+            </Link>
+            <Link target="_blank" href={myLinks.LINKEDIN}>
+              <Linkedin
                 className={`w-6 h-6 duration-200 hover:font-medium ${
                   isIntersecting
                     ? ' text-zinc-400 hover:text-zinc-100'

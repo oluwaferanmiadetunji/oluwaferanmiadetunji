@@ -2,6 +2,7 @@ import '../global.css'
 import { Inter } from '@next/font/google'
 import LocalFont from '@next/font/local'
 import { Metadata } from 'next'
+import Meta from './components/Meta'
 
 export const metadata: Metadata = {
   title: {
@@ -11,11 +12,10 @@ export const metadata: Metadata = {
   description: 'Software engineer',
   openGraph: {
     title: 'oluwaferanmiadetunji.com',
-    description:
-      'Software engineer ',
+    description: 'Software engineer ',
     url: 'https://oluwaferanmiadetunji.com',
     siteName: 'oluwaferanmiadetunji.com',
-   
+
     locale: 'en-US',
     type: 'website',
   },
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: '0xwyz',
+    title: '@0xwyz',
     card: 'summary_large_image',
   },
   icons: {
@@ -55,6 +55,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={[inter.variable, calSans.variable].join(' ')}>
+      <Meta />
       <body
         className={`bg-black ${
           process.env.NODE_ENV === 'development' ? 'debug-screens' : undefined

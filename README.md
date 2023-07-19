@@ -8,6 +8,6 @@
 
 <p></p>
 <a href="https://github.com/oluwaferanmiadetunji">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=oluwaferanmiadetunji&theme=nord&langs_count=5&hide=javascript,html,css,erlang" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=oluwaferanmiadetunji&theme=nord&langs_count=10&hide=javascript,html,css,erlang" />
 </a>
 

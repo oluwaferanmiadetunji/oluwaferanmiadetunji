@@ -15,7 +15,6 @@ export const metadata: Metadata = {
     description: 'Software engineer ',
     url: 'https://oluwaferanmiadetunji.com',
     siteName: 'oluwaferanmiadetunji.com',
-
     locale: 'en-US',
     type: 'website',
   },
@@ -32,10 +31,11 @@ export const metadata: Metadata = {
   },
   twitter: {
     title: '@0xwyz',
-    card: 'summary_large_image',
+    card: 'summary',
+    images: ['/logo.png'],
   },
   icons: {
-    shortcut: '/favicon.png',
+    shortcut: '/logo.png',
   },
 }
 const inter = Inter({
@@ -56,7 +56,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={[inter.variable, calSans.variable].join(' ')}>
       <Meta />
-      
+
       <body
         className={`bg-black ${
           process.env.NODE_ENV === 'development' ? 'debug-screens' : undefined

@@ -39,6 +39,8 @@ const Meta = () => {
         name="twitter:url"
         content="https://www.oluwaferanmiadetunji.com/"
       />
+      <meta property="og:image" content="/logo.png" />
+      <meta property="twitter:image" content="/logo.png" />
     </Head>
   )
 }

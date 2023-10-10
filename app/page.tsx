@@ -59,7 +59,7 @@ export default function Home() {
       />
 
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
-      <div className="my-16 text-left animate-fade-in w-2/5">
+      <div className="my-16 text-left animate-fade-in w-full md:w-2/5">
         <h2 className="text-sm text-zinc-500 ">
           Hello, I'm{' '}
           <span className="text-[#70FF00]">Adetunji Oluwaferanmi</span>, a

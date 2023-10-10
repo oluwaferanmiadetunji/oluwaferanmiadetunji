@@ -283,7 +283,7 @@ export const allProjects = [
 ]
 
 export const links = {
-  LINKEDIN: 'https://www.linkedin.com/in/feranmi-adetunji-91228a221/',
+  LINKEDIN: 'https://www.linkedin.com/in/oluwaferanmiadetunji/',
   GITHUB: 'https://github.com/oluwaferanmiadetunji/',
   EMAIL: 'mailto:oluwaferanmiadetunji111@gmail.com',
   URL: 'https://www.oluwaferanmiadetunji.me',

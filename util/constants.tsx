@@ -236,6 +236,50 @@ export const allProjects = [
       </div>
     ),
   },
+  {
+    title: 'Diffusion.to',
+    description: 'Free AI image generator',
+    image: '/projects/diffusion.png',
+    url: 'https://diffusion.to/',
+    date: '2023-09-26',
+    slug: 'difussion',
+    info: (
+      <div className="mt-4 pt-4">
+        <p className="text-zinc-500">
+          Your Creative AI Image Generator! Unleash your imagination and
+          creativity with our cutting-edge AI-powered image generator. Whether
+          you're an artist, designer, or simply looking to add a touch of AI
+          magic to your projects, our tool is here to help. Create stunning,
+          unique images effortlessly, explore endless possibilities, and let
+          your ideas come to life. Best of all, it's completely free!
+        </p>
+
+        <br />
+        <br />
+
+        <h3 className="text-zinc-500 text-xl font-bold mmb-2 pb-2">Role</h3>
+        <hr className="mb-8" />
+
+        <p className="text-zinc-500">Frontend developer.</p>
+        <br />
+        <br />
+
+        <h3 className="text-zinc-500 text-xl font-bold mmb-2 pb-2">
+          Tech Stack
+        </h3>
+        <hr className="mb-8" />
+
+        <ul className="list-disc text-zinc-500">
+          <li>SASS/SCSS</li>
+          <li>React</li>
+          <li>Laravel</li>
+          <li>Vite</li>
+          <li>Typescript</li>
+          <li>MUI</li>
+        </ul>
+      </div>
+    ),
+  },
 ]
 
 export const links = {

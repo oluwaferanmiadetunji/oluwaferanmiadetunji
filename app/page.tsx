@@ -44,7 +44,7 @@ export default function Home() {
             <Link
               key={item.href}
               href={item.href}
-              className="text-sm duration-500 text-zinc-500 hover:text-[#70FF00]"
+              className="text-sm duration-500 text-[lightblue] hover:text-[#70FF00]"
             >
               {item.name}
             </Link>
@@ -59,9 +59,14 @@ export default function Home() {
       />
 
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
-      <div className="my-16 text-center animate-fade-in">
+      <div className="my-16 text-left animate-fade-in w-2/5">
         <h2 className="text-sm text-zinc-500 ">
-          Hi, my name is Adetunji Oluwaferanmi.
+          Hello, I'm{' '}
+          <span className="text-[#70FF00]">Adetunji Oluwaferanmi</span>, a
+          passionate software engineer dedicated to crafting innovative
+          solutions through code.
+          <br /> Let's connect and discuss how I can contribute to your projects
+          and help bring your vision to life!
         </h2>
       </div>
     </div>
